@@ -16,4 +16,9 @@ def get_min_order(ticket) :
 min_order = get_min_order("BTC")
 print(min_order)
 
-# 
+# 2.3.2 함수는 이름표
+def 별찍기() :
+    print("*" * 40)
+    print("*" * 40)
+
+별찍기()
