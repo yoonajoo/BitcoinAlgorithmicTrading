@@ -19,6 +19,6 @@ print(now - datetime.timedelta(minutes=30))
 
 # 91. requests module (anaconda에서 실행)
 import requests
-resp = requests("https://api.bithumb.com/public/ticker/BTC")
+resp = requests.get("https://api.bithumb.com/public/ticker/BTC")
 print(resp)
 print(resp.content)
