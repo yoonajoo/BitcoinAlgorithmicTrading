@@ -45,13 +45,12 @@ mario_p2.forward()
 print(mario_p1.pos)
 print(mario_p2.pos)
 
-# 97. class
-# (1) int 타입
+# 97. class (1) int 타입
 a = 3
 print(type(a))
 print(a.bit_length())   # a에 대한 비트 길이 출력
 
-# (2) string 타입
+# 97. class (2) string 타입
 b = "python"
 print(type(b))
 print(b.upper())
