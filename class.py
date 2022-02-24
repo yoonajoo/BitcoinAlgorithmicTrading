@@ -54,3 +54,12 @@ print(a.bit_length())   # a에 대한 비트 길이 출력
 b = "python"
 print(type(b))
 print(b.upper())
+
+# 100. 클래스에 메서드 추가하기 기본 값
+class myClass:
+    def method(self):
+        print("method")
+
+obj = myClass()
+obj.method()
+    
