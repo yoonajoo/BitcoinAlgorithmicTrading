@@ -59,7 +59,29 @@ print(b.upper())
 class myClass:
     def method(self):
         print("method")
-
+        
 obj = myClass()
 obj.method()
-    
+
+# 101. add() 함수 추가하기 -> 인자 세 개 add(self,a,b)
+class MyClass:
+    def add(self,a,b):
+        return a + b
+
+obj = MyClass()
+ret = obj.add(4,6)
+print(ret) 
+
+# 103. 붕어빵틀 class로 쉽게 이해하기
+class 붕어빵틀:
+    def 팥소넣기(self, 팥소):
+        self.팥소 = 팥소
+        
+붕어빵1 = 붕어빵틀()
+붕어빵2 = 붕어빵틀()
+
+붕어빵1.팥소넣기("초코맛팥소")
+붕어빵2.팥소넣기("딸기맛팥소")
+
+print(붕어빵1.팥소)
+print(붕어빵2.팥소)
