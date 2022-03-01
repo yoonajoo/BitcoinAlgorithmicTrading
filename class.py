@@ -85,3 +85,20 @@ class 붕어빵틀:
 
 print(붕어빵1.팥소)
 print(붕어빵2.팥소)
+
+# 104. 초기화자(기본)
+class 붕어빵틀:
+    def __init__(self):
+        self.팥소 = "초코맛팥소"
+
+붕어빵1 = 붕어빵틀()
+print(붕어빵1.팥소)
+
+# 105. customer class 만들기
+class customer:
+    def __init__(self, id , name):
+        self.id = id
+        self.name = name
+
+customer1 = customer(1, "김진수")
+customer2 = customer(2, "백두산") 
