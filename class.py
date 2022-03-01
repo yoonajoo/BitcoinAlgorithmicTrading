@@ -1,4 +1,7 @@
 # 95. (1)superMario 절차 지향 프로그래밍
+from sympy import primefactors
+
+
 pos = 0
 
 def forward(pos):
@@ -102,3 +105,35 @@ class customer:
 
 customer1 = customer(1, "김진수")
 customer2 = customer(2, "백두산") 
+
+# 107. 클래스
+class parent:
+    def sing(self):
+        print("sing a song")
+
+father = parent()
+father.sing()
+
+# 108. class inheritance 클래스 상속
+class Parent:
+    def sing(self):
+        print("sing a song song!")
+
+class LuckyChild(Parent):
+    pass
+
+luckyboy = LuckyChild()
+luckyboy.sing()
+
+# 109. 클래스 상속
+class Parent:
+    def sing(self):
+        print("sing a song :)")
+
+class LuckyChild(Parent):
+    def dance(self):
+        print("Suffle dance!")
+
+luckyboy = LuckyChild()
+luckyboy.sing()
+luckyboy.dance()
