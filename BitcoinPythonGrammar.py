@@ -1,3 +1,4 @@
+# https://blog.naver.com/rob_sten/222639873568
 
 # 1.2.6 문자열 인덱싱
 
