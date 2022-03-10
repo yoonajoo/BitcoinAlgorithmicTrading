@@ -1,5 +1,4 @@
 # https://blog.naver.com/rob_sten/222655171622
-
 # 95. (1)superMario 절차 지향 프로그래밍
 from sympy import primefactors
 
