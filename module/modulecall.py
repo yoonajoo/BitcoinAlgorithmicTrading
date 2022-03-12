@@ -1,5 +1,4 @@
 # https://blog.naver.com/rob_sten/222654059265
-
 # 86. call module test
 import coinmodule
 
