@@ -1,3 +1,4 @@
+# https://blog.naver.com/rob_sten/222642123809
 # 2.3 함수
 def get_min_order(ticket) :
     min_order = None 
